@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="angel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 491">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: aqua;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #0c69ff;
+      }
+     
+     #head, #hale {
+        transition: all 0.5s ease;
+        transform-origin: 60%;
+     }
+
+     #angel:hover #head {
+        transform: rotate(10deg) scale(0.5) translate(-59px, -300px); 
+     }
+
+    </style>
+  </defs>
+  <circle id="head" class="cls-2" cx="190" cy="301" r="187.5"/>
+  <ellipse id="hale" class="cls-1" cx="190" cy="40.5" rx="184.5" ry="38"/>
+</svg>

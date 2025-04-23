@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="fireball" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.522 212.403">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1272d;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #f15a24;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #f15a24;
+      }
+
+      .cls-3 {
+        fill: #ff9626;
+      }
+
+#flame, #light_flame, #ember {
+  transition: all 0.5s ease;
+  transform-origin: center;
+}
+
+#fireball:hover #ember {
+  transform: scale(0.8);
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(-3deg) scale(1.05); }
+  25% { transform: rotate(3deg) scale(1.1); }
+  50% { transform: rotate(-2deg) scale(1.05); }
+  75% { transform: rotate(2deg) scale(1.1); }
+  100% { transform: rotate(-3deg) scale(1.05); }
+}
+
+#fireball:hover #flame,#fireball:hover #light_flame {
+  animation: vibrate 0.3s infinite;
+}animation: vibrate 0.3s infinite;
+
+    </style>
+  </defs>
+  <path id="flame" class="cls-2" d="M3.911,168.599c-.089,1.305-6.856-32.322-1.08-65.696,3.847-22.231,4-30,11-41s19-25,19-25c0,0,2,10,14,20S85.831.903,85.831.903c0,0,21,22,26,42s8,32,7,57-14.101,78.475-14.101,78.475"/>
+  <path id="light_flame" class="cls-3" d="M15.663,168.305c-.064.933-4.902-23.11-.772-46.972,2.751-15.895,2.86-21.45,7.865-29.315s13.585-17.875,13.585-17.875c0,0,1.43,7.15,10.01,14.3s27.885-40.04,27.885-40.04c0,0,15.015,15.73,18.59,30.03,3.575,14.3,5.72,22.88,5.005,40.755-.715,17.875-10.082,56.109-10.082,56.109"/>
+  <path id="ember" class="cls-1" d="M108.831,157.903c0,29.271-28.729,53-58,53S2.831,187.174,2.831,157.903s23.729-53,53-53,53,23.729,53,53Z"/>
+</svg>

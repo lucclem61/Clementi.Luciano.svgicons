@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	max-width: 100px;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	margin: 100px auto;
+	overflow: visible;
+}
+
+.organic {
+	display: flex;
+	max-width: 200px;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	margin: 100px auto;
+	overflow: visible;
+}
+
+.sun {
+	display: flex;
+	max-width: 200px;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	margin: 100px auto;
+	overflow: visible;
+}
